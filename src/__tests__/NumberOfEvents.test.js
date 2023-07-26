@@ -10,7 +10,6 @@ describe("<NumberOfEvents /> component", () => {
     test("default input value is 32", () => {
         expect(numberInput.value).toBe("32");
     });
-
     test("input box responds to typing", async () => {
         const user = userEvent.setup();
         let initialValue = numberInput.value;
