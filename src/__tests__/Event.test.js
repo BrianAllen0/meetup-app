@@ -3,6 +3,7 @@ import { render } from "@testing-library/react";
 describe("<Event /> component", () => {
     beforeEach(() => {
         showDetailsButton = EventComponent.queryByText("Show Details");
+        hideDetailsButton = EventComponent.queryByText("Hide Details");
     });
 
     test("renders event title", () => {
@@ -40,9 +41,9 @@ describe("<Event /> component", () => {
     test("hide details when user clicks 'hide details' button", async () => {
         expect(EventComponent.queryByText("Details")).not.toBeInTheDocument();
         const user = userEvent.setup();
-        await user.click(showDetailsButton);
+        await user.click(hideDetailsButton);
         expect(EventComponent.queryByText("Details")).toBeInTheDocument();
-        await user.click(showDetailsButton);
+        await user.click(hideDetailsButton);
         expect(EventComponent.queryByText("Details")).not.toBeInTheDocument();
     });
 });
