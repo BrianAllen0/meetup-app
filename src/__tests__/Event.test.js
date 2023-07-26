@@ -1,7 +1,10 @@
 import { render } from "@testing-library/react";
+import Event from "../components/Event";
 
 describe("<Event /> component", () => {
+    let EventComponent;
     beforeEach(() => {
+        EventComponent = render(<Event />);
         showDetailsButton = EventComponent.queryByText("Show Details");
         hideDetailsButton = EventComponent.queryByText("Hide Details");
     });
