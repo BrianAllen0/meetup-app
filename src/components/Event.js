@@ -5,19 +5,15 @@ const Event = ({ event }) => {
 
     return (
         <div>
-            <h1>Details: </h1>
+            <h1>{event && event.summary}</h1>
             {showDetails ? (
                 <div>
-                    <button onClick={() => setShowDetails(false)}>
-                        Hide Details
-                    </button>
-                    <h1>Details</h1>
+                    <button onClick={() => setShowDetails(false)}>Hide Details</button>
+                    <p>{event.description}</p>
                 </div>
             ) : (
                 <div>
-                    <button onClick={() => setShowDetails(true)}>
-                        Show Details
-                    </button>
+                    <button onClick={() => setShowDetails(true)}>Show Details</button>
                 </div>
             )}
         </div>
