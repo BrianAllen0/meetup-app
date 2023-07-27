@@ -7,21 +7,15 @@ describe("<Event /> component", () => {
     });
 
     test("renders event title", () => {
-        expect(
-            EventComponent.queryByText(allEvents[0].summary)
-        ).toBeInTheDocument();
+        expect(EventComponent.queryByText(allEvents[0].summary)).toBeInTheDocument();
     });
 
     test("renders event start time", () => {
-        expect(
-            EventComponent.queryByText(allEvents[0].created)
-        ).toBeInTheDocument();
+        expect(EventComponent.queryByText(allEvents[0].created)).toBeInTheDocument();
     });
 
     test("renders event location", () => {
-        expect(
-            EventComponent.queryByTestId(allEvents[0].location)
-        ).toBeInTheDocument();
+        expect(EventComponent.queryByTestId(allEvents[0].location)).toBeInTheDocument();
     });
 
     test("renders event details button with the title (show details)", () => {
