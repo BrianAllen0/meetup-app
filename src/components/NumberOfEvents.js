@@ -3,7 +3,7 @@ import { useState } from "react";
 const NumberOfEvents = () => {
     return (
         <div>
-            <input role="textbox" placeholder="32" />
+            <input id="number-of-events" role="textbox" placeholder="32" />
         </div>
     );
 };
