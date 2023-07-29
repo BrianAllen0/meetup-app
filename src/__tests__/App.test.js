@@ -32,14 +32,18 @@ describe("<App /> integration", () => {
         const CitySearchInput = within(CitySearchDOM).queryByRole("textbox");
 
         await user.type(CitySearchInput, "Berlin");
-        const berlinSuggestionItem = within(CitySearchDOM).queryByText("Berlin, Germany");
+        const berlinSuggestionItem =
+            within(CitySearchDOM).queryByText("Berlin, Germany");
         await user.click(berlinSuggestionItem);
 
         const EventListDOM = AppDOM.querySelector("#event-list");
-        const allRenderedEventItems = within(EventListDOM).queryAllByRole("listitem");
+        const allRenderedEventItems =
+            within(EventListDOM).queryAllByRole("listitem");
 
         const allEvents = await getEvents();
-        const berlinEvents = allEvents.filter((event) => event.location === "Berlin, Germany");
+        const berlinEvents = allEvents.filter(
+            (event) => event.location === "Berlin, Germany"
+        );
 
         expect(allRenderedEventItems.length).toBe(berlinEvents.length);
 
