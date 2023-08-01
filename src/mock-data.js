@@ -4,8 +4,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200519T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MTlUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MTlUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -45,8 +44,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200520T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjBUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjBUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
@@ -86,8 +84,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200521T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MjFUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MjFUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -127,8 +124,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200522T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjJUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjJUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
@@ -168,8 +164,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200523T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MjNUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MjNUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -209,8 +204,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200525T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjVUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjVUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
@@ -250,8 +244,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200526T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MjZUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MjZUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -291,8 +284,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200527T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjdUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjdUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
@@ -332,8 +324,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200528T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MjhUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MjhUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -373,8 +364,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200529T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjlUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA1MjlUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
@@ -414,8 +404,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200530T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MzBUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA1MzBUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -455,8 +444,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200601T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MDFUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MDFUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
@@ -496,8 +484,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200602T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MDJUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MDJUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -537,8 +524,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200603T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MDNUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MDNUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
@@ -578,8 +564,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200604T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MDRUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MDRUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -619,8 +604,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200605T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MDVUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MDVUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
@@ -660,8 +644,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200606T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MDZUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MDZUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -701,8 +684,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200608T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MDhUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MDhUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
@@ -742,8 +724,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200609T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MDlUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MDlUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -783,8 +764,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200610T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTBUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTBUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
@@ -824,8 +804,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200611T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MTFUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MTFUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -865,8 +844,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200612T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTJUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTJUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
@@ -906,8 +884,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200613T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MTNUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MTNUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -947,8 +924,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200615T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTVUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTVUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
@@ -988,8 +964,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200616T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MTZUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MTZUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -1029,8 +1004,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200617T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTdUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTdUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
@@ -1070,8 +1044,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200618T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MThUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MThUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -1111,8 +1084,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200619T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTlUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MTlUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
@@ -1152,8 +1124,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200620T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MjBUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MjBUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -1193,8 +1164,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200622T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MjJUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MjJUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
@@ -1234,8 +1204,7 @@ const mockData = [
         etag: '"3181161784712000"',
         id: "4eahs9ghkhrvkld72hogu9ph3e_20200623T140000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MjNUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=NGVhaHM5Z2hraHJ2a2xkNzJob2d1OXBoM2VfMjAyMDA2MjNUMTQwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:17:46.000Z",
         updated: "2020-05-27T12:01:32.356Z",
         summary: "Learn JavaScript",
@@ -1275,8 +1244,7 @@ const mockData = [
         etag: '"3181159875584000"',
         id: "3qtd6uscq4tsi6gc7nmmtpqlct_20200624T120000Z",
         status: "confirmed",
-        htmlLink:
-            "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MjRUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
+        htmlLink: "https://www.google.com/calendar/event?eid=M3F0ZDZ1c2NxNHRzaTZnYzdubW10cHFsY3RfMjAyMDA2MjRUMTIwMDAwWiBmdWxsc3RhY2t3ZWJkZXZAY2FyZWVyZm91bmRyeS5jb20",
         created: "2020-05-19T19:14:30.000Z",
         updated: "2020-05-27T11:45:37.792Z",
         summary: "React is Fun",
