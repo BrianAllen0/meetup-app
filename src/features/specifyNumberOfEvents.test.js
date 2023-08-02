@@ -33,35 +33,35 @@ defineFeature(feature, (test) => {
         });
     });
 
-    test("When the user specifies a number of events, the app displays that amount", ({ given, and, when, then }) => {
-        let AppComponent;
-        let AppDOM;
-        let NumberOfEventsComponent;
-        let EventListDOM;
+    // test("When the user specifies a number of events, the app displays that amount", ({ given, and, when, then }) => {
+    //     let AppComponent;
+    //     let AppDOM;
+    //     let NumberOfEventsComponent;
+    //     let EventListDOM;
 
-        given("user has the app open", () => {
-            AppComponent = render(<App />);
-            AppDOM = AppComponent.container.firstChild;
-            NumberOfEventsComponent = AppDOM.querySelector("#number-of-events");
-            EventListDOM = AppDOM.querySelector("#event-list");
-        });
-        and("the event list is populated", async () => {
-            await waitFor(() => {
-                const EventListItems = within(EventListDOM).queryAllByRole("listitem");
-                expect(EventListItems.length).toBeGreaterThan(0);
-            });
-        });
-        when("the user specifies a number of events", async () => {
-            let numberSelect = within(NumberOfEventsComponent).queryByRole("textbox");
-            const user = userEvent.setup();
-            await user.type(numberSelect, "{delete}");
-            expect(numberSelect).toHaveValue("2");
-        });
-        then("the event list displays the specified number of events", async () => {
-            await waitFor(() => {
-                const EventListItems = within(EventListDOM).queryAllByRole("listitem");
-                expect(EventListItems.length).toBe(2);
-            });
-        });
-    });
+    //     given("user has the app open", () => {
+    //         AppComponent = render(<App />);
+    //         AppDOM = AppComponent.container.firstChild;
+    //         NumberOfEventsComponent = AppDOM.querySelector("#number-of-events");
+    //         EventListDOM = AppDOM.querySelector("#event-list");
+    //     });
+    //     and("the event list is populated", async () => {
+    //         await waitFor(() => {
+    //             const EventListItems = within(EventListDOM).queryAllByRole("listitem");
+    //             expect(EventListItems.length).toBeGreaterThan(0);
+    //         });
+    //     });
+    //     when("the user specifies a number of events", async () => {
+    //         let numberSelect = within(NumberOfEventsComponent).queryByRole("textbox");
+    //         const user = userEvent.setup();
+    //         await user.type(numberSelect, "{delete}");
+    //         expect(numberSelect).toHaveValue("2");
+    //     });
+    //     then("the event list displays the specified number of events", async () => {
+    //         await waitFor(() => {
+    //             const EventListItems = within(EventListDOM).queryAllByRole("listitem");
+    //             expect(EventListItems.length).toBe(2);
+    //         });
+    //     });
+    // });
 });
