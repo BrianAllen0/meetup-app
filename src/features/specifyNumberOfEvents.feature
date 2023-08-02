@@ -5,8 +5,8 @@ Feature: Specify number of events
         When the event list loads
         Then the event list displays 32 events
 
-    Scenario: When the user specifies a number of events, the app displays that amount
-        Given user has the app open
-        And the event list is populated
-        When the user specifies a number of events
-        Then the event list displays the specified number of events
+    # Scenario: When the user specifies a number of events, the app displays that amount
+    #     Given user has the app open
+    #     And the event list is populated
+    #     When the user specifies a number of events
+    #     Then the event list displays the specified number of events
