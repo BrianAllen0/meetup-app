@@ -1,11 +1,16 @@
 import { useState } from "react";
 
-const NumberOfEvents = ({}) => {
+const NumberOfEvents = ({ setErrorAlert }) => {
     const [number, setNumber] = useState(32);
 
     const handleInputChanged = (event) => {
         const value = event.target.value;
-        setNumber(value);
+        if (isNaN(value) || value <= 0) {
+            setErrorAlert("Please choose a positive number");
+        } else {
+            setErrorAlert("");
+            setNumber(value);
+        }
     };
 
     return (
