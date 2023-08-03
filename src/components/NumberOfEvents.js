@@ -9,8 +9,8 @@ const NumberOfEvents = ({ setErrorAlert }) => {
             setErrorAlert("Please choose a positive number");
         } else {
             setErrorAlert("");
-            setNumber(value);
         }
+        setNumber(value);
     };
 
     return (

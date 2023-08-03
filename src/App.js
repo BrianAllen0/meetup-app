@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import EventList from "./components/EventList";
 import CitySearch from "./components/CitySearch";
 import NumberOfEvents from "./components/NumberOfEvents";
-import infoAlert from "./components/Alert";
+import { InfoAlert } from "./components/Alert";
+import { ErrorAlert } from "./components/Alert";
 import { extractLocations, getEvents } from "./api";
 
 import "./App.css";
@@ -25,6 +26,7 @@ const App = () => {
         setEvents(filteredEvents.slice(0, currentNOE));
         setAllLocations(extractLocations(allEvents));
     };
+    console.log(infoAlert);
 
     return (
         <div className="App">

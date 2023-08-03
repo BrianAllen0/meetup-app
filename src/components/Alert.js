@@ -47,3 +47,5 @@ class ErrorAlert extends Alert {
         this.bgColor = "rgb(255, 220, 220)"; // light red
     }
 }
+
+export { ErrorAlert, InfoAlert };
