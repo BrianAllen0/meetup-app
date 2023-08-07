@@ -1,22 +1,30 @@
 import { useState } from "react";
 
-const NumberOfEvents = ({ setErrorAlert }) => {
-    const [number, setNumber] = useState(32);
-
+const NumberOfEvents = ({ setErrorAlert, eventNumber, onEventNumberChange }) => {
     const handleInputChanged = (event) => {
-        const value = event.target.value;
-        if (isNaN(value) || value <= 0) {
+        const value = Number(event.target.value);
+        if (value <= 0) {
             setErrorAlert("Please choose a positive number");
         } else {
             setErrorAlert("");
         }
-        setNumber(value);
+        onEventNumberChange(value);
     };
 
     return (
         <div id="number-of-events">
             <label htmlFor="number-of-events-input">Number of Events: </label>
-            <input type="text" id="number-of-events-input" className="number-of-events-input" value={number} onChange={handleInputChanged} />
+            <input
+                onFocus={() => {
+                    onEventNumberChange("");
+                }}
+                type="text"
+                placeholder="32"
+                id="number-of-events-input"
+                className="number-of-events-input"
+                value={eventNumber}
+                onChange={handleInputChanged}
+            />
         </div>
     );
 };

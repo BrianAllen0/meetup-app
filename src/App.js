@@ -10,6 +10,7 @@ import "./App.css";
 
 const App = () => {
     const [events, setEvents] = useState([]);
+    const [filteredEvents, setFilteredEvents] = useState([]);
     const [currentNOE, setCurrentNOE] = useState(32);
     const [allLocations, setAllLocations] = useState([]);
     const [currentCity, setCurrentCity] = useState("See all cities");
@@ -22,11 +23,26 @@ const App = () => {
 
     const fetchData = async () => {
         const allEvents = await getEvents();
-        const filteredEvents = currentCity === "See all cities" ? allEvents : allEvents.filter((event) => event.location === currentCity);
-        setEvents(filteredEvents.slice(0, currentNOE));
+        setEvents(allEvents);
         setAllLocations(extractLocations(allEvents));
     };
-    console.log(infoAlert);
+
+    const updateEvent = (city, numberOfEvents) => {
+        setCurrentCity(city);
+        const filteredEvents = events.filter((event) => event.location === city);
+        let sliced = [];
+        if (city === "See all cities") {
+            sliced = events.slice(0, numberOfEvents);
+        } else {
+            sliced = filteredEvents.slice(0, numberOfEvents);
+        }
+        setFilteredEvents(sliced);
+    };
+
+    const onEventNumberChange = (number) => {
+        setCurrentNOE(number);
+        updateEvent(currentCity, number);
+    };
 
     return (
         <div className="App">
@@ -34,9 +50,9 @@ const App = () => {
                 {infoAlert.length ? <InfoAlert text={infoAlert} /> : null}
                 {errorAlert.length ? <ErrorAlert text={errorAlert} /> : null}
             </div>
-            <CitySearch setInfoAlert={setInfoAlert} setErrorAlert={setErrorAlert} allLocations={allLocations} setCurrentCity={setCurrentCity} />
-            <NumberOfEvents setErrorAlert={setErrorAlert} />
-            <EventList events={events} />
+            <CitySearch setInfoAlert={setInfoAlert} setErrorAlert={setErrorAlert} allLocations={allLocations} setCurrentCity={updateEvent} />
+            <NumberOfEvents eventNumber={currentNOE} onEventNumberChange={onEventNumberChange} setErrorAlert={setErrorAlert} />
+            <EventList events={filteredEvents.length > 0 ? filteredEvents : events} />
         </div>
     );
 };
