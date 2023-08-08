@@ -29,6 +29,7 @@ const App = () => {
     const fetchData = async () => {
         const allEvents = await getEvents();
         setEvents(allEvents);
+        console.log(allEvents);
         setAllLocations(extractLocations(allEvents));
     };
 

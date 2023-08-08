@@ -22,9 +22,13 @@ export const getEvents = async () => {
     }
 
     const token = await getAccessToken();
+    console.log("token");
+    console.log(token);
     if (token) {
         removeQuery();
         const url = getEventsEndpoint + token;
+        console.log("endpoint url");
+        console.log(url);
         const response = await fetch(url);
         const result = await response.json();
         if (result) {
