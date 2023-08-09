@@ -13,8 +13,23 @@ const MESSAGES_TO_IGNORE = [
 const originalError = console.error.bind(console.error);
 
 console.error = (...args) => {
-    const ignoreMessage = MESSAGES_TO_IGNORE.find((message) =>
-        args.toString().includes(message)
-    );
+    const ignoreMessage = MESSAGES_TO_IGNORE.find((message) => args.toString().includes(message));
     if (!ignoreMessage) originalError(...args);
 };
+
+const { ResizeObserver } = window;
+
+beforeEach(() => {
+    //@ts-ignore
+    delete window.ResizeObserver;
+    window.ResizeObserver = jest.fn().mockImplementation(() => ({
+        observe: jest.fn(),
+        unobserve: jest.fn(),
+        disconnect: jest.fn(),
+    }));
+});
+
+afterEach(() => {
+    window.ResizeObserver = ResizeObserver;
+    jest.restoreAllMocks();
+});
