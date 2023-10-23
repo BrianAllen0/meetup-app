@@ -62,8 +62,8 @@ const App = () => {
             <CitySearch setInfoAlert={setInfoAlert} setErrorAlert={setErrorAlert} allLocations={allLocations} setCurrentCity={updateEvent} />
             <NumberOfEvents eventNumber={currentNOE} onEventNumberChange={onEventNumberChange} setErrorAlert={setErrorAlert} />
             <div className="charts-container">
-                <EventGenresChart events={events} />
-                <CityEventsChart allLocations={allLocations} events={events} />
+                <EventGenresChart events={filteredEvents.length > 0 ? filteredEvents : events} />
+                <CityEventsChart allLocations={allLocations} events={filteredEvents.length > 0 ? filteredEvents : events} />
             </div>
             <EventList events={filteredEvents.length > 0 ? filteredEvents : events} />
         </div>
