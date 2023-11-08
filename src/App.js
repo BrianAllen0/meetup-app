@@ -26,12 +26,12 @@ const App = () => {
             setWarningAlert("Warning: App is running offline, data may not be up to date.");
         }
         fetchData();
-    }, [currentCity]);
+        updateEvent(currentCity, currentNOE);
+    }, [currentCity, currentNOE]);
 
     const fetchData = async () => {
         const allEvents = await getEvents();
         setEvents(allEvents);
-        console.log(allEvents);
         setAllLocations(extractLocations(allEvents));
     };
 
@@ -47,11 +47,6 @@ const App = () => {
         setFilteredEvents(sliced);
     };
 
-    const onEventNumberChange = (number) => {
-        setCurrentNOE(number);
-        updateEvent(currentCity, number);
-    };
-
     return (
         <div className="App">
             <div className="alerts-container">
@@ -59,8 +54,8 @@ const App = () => {
                 {errorAlert.length ? <ErrorAlert text={errorAlert} /> : null}
                 {warningAlert.length ? <WarningAlert text={warningAlert} /> : null}
             </div>
-            <CitySearch setInfoAlert={setInfoAlert} setErrorAlert={setErrorAlert} allLocations={allLocations} setCurrentCity={updateEvent} />
-            <NumberOfEvents eventNumber={currentNOE} onEventNumberChange={onEventNumberChange} setErrorAlert={setErrorAlert} />
+            <CitySearch setInfoAlert={setInfoAlert} setErrorAlert={setErrorAlert} allLocations={allLocations} setCurrentCity={setCurrentCity} />
+            <NumberOfEvents eventNumber={currentNOE} setErrorAlert={setErrorAlert} setCurrentNOE={setCurrentNOE} />
             <div className="charts-container">
                 <EventGenresChart events={filteredEvents.length > 0 ? filteredEvents : events} />
                 <CityEventsChart allLocations={allLocations} events={filteredEvents.length > 0 ? filteredEvents : events} />

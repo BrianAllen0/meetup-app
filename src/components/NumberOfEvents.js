@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const NumberOfEvents = ({ setErrorAlert, eventNumber, onEventNumberChange }) => {
+const NumberOfEvents = ({ setErrorAlert, eventNumber, setCurrentNOE }) => {
     const handleInputChanged = (event) => {
         const value = Number(event.target.value);
         if (value <= 0) {
@@ -8,23 +8,14 @@ const NumberOfEvents = ({ setErrorAlert, eventNumber, onEventNumberChange }) => 
         } else {
             setErrorAlert("");
         }
-        onEventNumberChange(value);
+        console.log("Input Value", value);
+        setCurrentNOE(value);
     };
 
     return (
         <div id="number-of-events">
             <label htmlFor="number-of-events-input">Number of Events: </label>
-            <input
-                onFocus={() => {
-                    onEventNumberChange("");
-                }}
-                type="text"
-                placeholder="32"
-                id="number-of-events-input"
-                className="number-of-events-input"
-                value={eventNumber}
-                onChange={handleInputChanged}
-            />
+            <input type="text" placeholder="32" id="number-of-events-input" className="number-of-events-input" onChange={handleInputChanged} />
         </div>
     );
 };
