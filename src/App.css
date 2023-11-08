@@ -17,6 +17,10 @@ p {
     margin: 5px 0;
 }
 
+.text-bold {
+    font-weight: bold;
+}
+
 .alerts-container {
     position: fixed;
     top: 0px;
