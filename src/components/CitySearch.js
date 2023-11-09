@@ -33,8 +33,6 @@ const CitySearch = ({ allLocations, setInfoAlert, setCurrentCity }) => {
         setQuery(value);
         setShowSuggestions(false);
         setCurrentCity(value);
-        console.log("VALUE");
-        console.log(value);
         setInfoAlert("");
     };
 
